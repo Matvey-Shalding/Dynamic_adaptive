@@ -1,0 +1,13 @@
+Just write the next attribute with following arguments
+
+data-da="where,when,index,type"
+
+where: where will be thrown your element .class,#id etc.
+when: on which breakpoint will be thrown your element 1410,320 etc.
+index: index in parent node 0,5,first(equals to 0),last(equals parent.children.length - 1)
+type(optional): type of media  request max(default),min
+
+Examples
+
+<div data-da=".place,320,2"></div>
+<span data-da=".place,1567,last,min"></span>
